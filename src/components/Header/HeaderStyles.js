@@ -36,8 +36,28 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-area: 1 / 3 / 2 / 4;
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @media ${(props) => props.theme.breakpoints.vm} {
+    grid-area: 2 / 3 / 2 / 5;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    gap: 5px;
+  }
+
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 3 / 2 / 5;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
   }
 `;
 export const Div3 = styled.div`
@@ -45,6 +65,14 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-area: 1 / 5 / 2 / 6;
+    disply: flex;
+    position: relative;
+    bottom: 5px;
+  }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;

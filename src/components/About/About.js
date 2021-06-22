@@ -19,9 +19,9 @@ const Acomplishments = () => (
       professional and personal life.
     </SectionText>
     <HeaderThree>Skills</HeaderThree>
-    <TagList style={{ marginRight: "auto" }}>
-      JavaScript, React.js, Next.js, MongoDB, Node.js, Express, p5.JS, HTML5,
-      CSS3, SASS, Java, getstream
+    <TagList style={{ marginRight: "auto", color: "rgba(255, 255, 255, 0.5)" }}>
+      JavaScript, React.js, Next.js, getstream, HTML5, CSS3, MongoDB, Node.js,
+      Express, p5.JS, SASS, Java,
     </TagList>
     <SectionDivider />
   </Section>

@@ -17,6 +17,7 @@ import {
   SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
+import { FiHeart } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -32,23 +33,28 @@ const Footer = () => {
             smileyshivam3042@gmail.com
           </LinkItem>
         </LinkColumn>
-        <SocialIconsContainer style={{ margin: "30px", paddingLeft: "40px" }}>
-          <SocialContainer>
-            <SocialIcons href="https://github.com/SmileyShivam">
-              <AiFillGithub size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://www.linkedin.com/in/shivam-kumar-1312771b5/">
-              <AiFillLinkedin size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://dev.to/smileyshivam">
-              <SiDevDotTo size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://twitter.com/_toxic_smiley">
-              <AiFillTwitterCircle size="3rem" />
-            </SocialIcons>
-          </SocialContainer>
-        </SocialIconsContainer>
       </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogan>
+            Made with <FiHeart style={{ fill: "#f5f5f5" }} />
+          </Slogan>
+        </CompanyContainer>
+        <SocialContainer>
+          <SocialIcons href="https://github.com/SmileyShivam">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/shivam-kumar-1312771b5/">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://dev.to/smileyshivam">
+            <SiDevDotTo size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://twitter.com/_toxic_smiley">
+            <AiFillTwitterCircle size="3rem" />
+          </SocialIcons>
+        </SocialContainer>
+      </SocialIconsContainer>
     </FooterWrapper>
   );
 };
