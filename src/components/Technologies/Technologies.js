@@ -33,7 +33,7 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <picture>
+        <picture style={{ marginBottom: "15px" }}>
           <DiReact size="3rem" style={{ marginRight: "3px" }} />
           <SiNextDotJs size="3rem" style={{ marginRight: "5px" }} />
           <SiApollographql size="3rem" style={{ marginRight: "5px" }} />
@@ -47,7 +47,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
+        <picture style={{ marginBottom: "15px" }}>
           <SiHtml5 size="3rem" style={{ marginRight: "5px" }} />
           <SiCss3 size="3rem" style={{ marginRight: "5px" }} />
           <SiSass size="3rem" style={{ marginRight: "5px" }} />
@@ -59,7 +59,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
+        <picture style={{ marginBottom: "15px" }}>
           <SiAdobe size="3rem" />
         </picture>
         <ListContainer>
