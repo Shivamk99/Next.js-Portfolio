@@ -8,6 +8,6 @@ A portfolio to showcase my cumulative efforts like ```Projects```, ```Experience
   - **Icons library:** React Icons and 
 
 - In order to run this project do:
-  - ```npm i``` and ```npm start```
+  - ```npm i``` and ```npm run dev```
 
 > **Happy Coding!!**
