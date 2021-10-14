@@ -109,5 +109,5 @@ export const profile = [
 export const TimeLineData = [
   { year: 2019, text: "Internship" },
   { year: 2020, text: "Learnt Javascript, React.js and worked on projects" },
-  { year: 2021, text: "Started my journey as a Front-end Developer" },
+  { year: 2021, text: "Started my journey as a Front-end Developer @twimbit" },
 ];
