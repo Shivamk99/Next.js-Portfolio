@@ -63,12 +63,14 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section >
-      <SectionTitle>Experience</SectionTitle>
+    <Section id="experience">
+      <SectionDivider />
+      <SectionTitle main>Work-Experience</SectionTitle>
       <SectionText>
-        I have done internship from a Fomax Information Technologies, where I
-        worked on MERN stack and build a project. Currently I am working for a
-        company as a Front-end Developer.
+        Front-end Developer with 1+ year of experience in designing and building
+        responsive web design. Proficient in React.js, Next.js and other modern
+        frontend libraries and tools. I code meaningful markups and web
+        applications. I play with Front End Everyday
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

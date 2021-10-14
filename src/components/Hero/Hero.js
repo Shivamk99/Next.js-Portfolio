@@ -15,9 +15,9 @@ const Hero = (props) => (
         I'm <br /> Shivam
       </SectionTitle>
       <SectionText>
-        Front-end Developer @{" "}
+        Front-end Developer @
         <a
-          href="www.twimbit.com"
+          href="http://twimbit.com/"
           target="_blank"
           style={{ color: "rgba(255, 255, 255, 0.5)" }}
         >
@@ -25,7 +25,7 @@ const Hero = (props) => (
         </a>
       </SectionText>
       <Button>
-        <a href="Shivamk Resume.pdf" style={{ color: "#ffffff" }}>
+        <a href="Shivam Kumar Resume.pdf" style={{ color: "#ffffff" }}>
           <MdGetApp size="2.5rem" style={{ margin: "-6px" }} />{" "}
           <span style={{ margin: "10px" }}> Resume</span>
         </a>

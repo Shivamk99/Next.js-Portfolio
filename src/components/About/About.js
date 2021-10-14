@@ -10,6 +10,7 @@ import { Box, Boxes, BoxNum, BoxText } from "./AboutStyles";
 
 const Acomplishments = () => (
   <Section id="about">
+    <SectionDivider/>
     <SectionTitle>About</SectionTitle>
     <SectionText>
       I am Shivam Kumar, Passionate about coding and tech. I have a habit of
@@ -19,11 +20,11 @@ const Acomplishments = () => (
       professional and personal life.
     </SectionText>
     <HeaderThree>Skills</HeaderThree>
+    <SectionDivider />
     <TagList style={{ marginRight: "auto", color: "rgba(255, 255, 255, 0.5)" }}>
-      JavaScript, React.js, Next.js, getstream, HTML5, CSS3, MongoDB, Node.js,
+      JavaScript, React.js, Next.js, Nx, Monorepo, getstream, HTML5, CSS3, MongoDB, Node.js,
       Express, p5.JS, SASS, Java,
     </TagList>
-    <SectionDivider />
   </Section>
 );
 
