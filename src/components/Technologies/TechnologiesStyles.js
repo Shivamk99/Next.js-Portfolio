@@ -121,6 +121,8 @@ export const ListItem = styled.li`
     flex-direction: column;
     width: 150px;
     text-align: center;
+    position: relative;
+    left: 12%;
   }
 
   @media ${(props) => props.theme.breakpoints.vm} {

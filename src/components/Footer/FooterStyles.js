@@ -142,7 +142,13 @@ export const LinkColumn = styled.div`
   flex-direction: column;
   max-width: 220px;
   width: 100%;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    position: relative;
+    left: 50px;
+  }
 `;
+
 export const LinkTitle = styled.h4`
   font-style: normal;
   font-weight: 600;
