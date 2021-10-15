@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiReact, DiJsBadge } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -15,13 +15,13 @@ import {
 } from "./TechnologiesStyles";
 import {
   SiNextDotJs,
-  SiApollographql,
   SiGraphql,
   SiHtml5,
   SiCss3,
-  SiSass,
   SiAdobe,
-  SiJava,
+  SiTypescript,
+  SiVisualstudiocode,
+  SiGithub,
 } from "react-icons/si";
 
 const Technologies = () => (
@@ -33,40 +33,34 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <picture style={{ marginBottom: "15px" }}>
-          <DiReact size="3rem" style={{ marginRight: "3px" }} />
-          <SiNextDotJs size="3rem" style={{ marginRight: "5px" }} />
-          <SiApollographql size="3rem" style={{ marginRight: "5px" }} />
-          <SiGraphql size="3rem" />
-        </picture>
         <ListContainer>
           <ListTitle>Currently</ListTitle>
+          <picture style={{ marginBottom: "15px" }}>
+            <DiReact size="3rem" style={{ marginRight: "3px" }} />
+            <SiNextDotJs size="3rem" style={{ marginRight: "5px" }} />
+            <DiJsBadge size="3rem" style={{ marginRight: "5px" }} />
+            <SiTypescript size="3rem" style={{ marginRight: "5px" }} />
+            <SiHtml5 size="3rem" style={{ marginRight: "5px" }} />
+            <SiCss3 size="3rem" style={{ marginRight: "5px" }} />
+            <SiGraphql size="3rem" />
+          </picture>
           <ListParagraph>
-            React.js, Next.js, Apollo GraphQL, getstream
+            React.js, Next.js, Javascript, <br /> typescript, GraphQL, HTML5, <br /> CSS3,
+            Material-ui getstream
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture style={{ marginBottom: "15px" }}>
-          <SiHtml5 size="3rem" style={{ marginRight: "5px" }} />
-          <SiCss3 size="3rem" style={{ marginRight: "5px" }} />
-          <SiSass size="3rem" style={{ marginRight: "5px" }} />
-          <SiJava size="3rem" />
-        </picture>
         <ListContainer>
-          <ListTitle>Familiar</ListTitle>
-          <ListParagraph>HTML5, CSS3, SASS, C, Java </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture style={{ marginBottom: "15px" }}>
-          <SiAdobe size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Familiar tools</ListTitle>
+          <picture style={{ marginBottom: "15px" }}>
+            <SiGithub size="3rem" style={{ marginRight: "5px" }} />
+            <SiVisualstudiocode size="3rem" style={{ marginRight: "5px" }} />
+            <SiAdobe size="3rem" />
+          </picture>
           <ListParagraph>
             Experience with <br />
-            tools like Adobe,
+            tools like VsCode, Git, Adobe,
           </ListParagraph>
         </ListContainer>
       </ListItem>
