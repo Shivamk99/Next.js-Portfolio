@@ -50,7 +50,7 @@ const Footer = () => {
           <SocialIcons href="https://dev.to/smileyshivam">
             <SiDevDotTo size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://twitter.com/_toxic_smiley">
+          <SocialIcons href="https://twitter.com/shivam_tsx">
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>
