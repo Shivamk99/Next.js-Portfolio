@@ -67,7 +67,7 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle main>Work-Experience</SectionTitle>
       <SectionText>
-        Front-end Developer with 1+ year of experience in designing and building
+        Front-end Developer with 1.5+ year of experience in designing and building
         responsive web design. Proficient in React.js, Next.js and other modern
         frontend libraries and tools. I code meaningful markups and web
         applications. I play with Front End Everyday
