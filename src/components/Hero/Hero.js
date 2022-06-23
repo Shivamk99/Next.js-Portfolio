@@ -25,7 +25,7 @@ const Hero = (props) => (
         </a>
       </SectionText>
       <Button>
-        <a href="Shivam Kumar Resume.pdf" style={{ color: "#ffffff" }}>
+        <a href="Shivam's Resume.pdf" style={{ color: "#ffffff" }}>
           <MdGetApp size="2.5rem" style={{ margin: "-6px" }} />{" "}
           <span style={{ margin: "10px" }}> Resume</span>
         </a>
